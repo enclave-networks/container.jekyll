@@ -9,7 +9,7 @@ Simple container that ships Ubuntu with Jekyll installed.
 ```dockerfile
 FROM enclavenetworks/jekyll:latest
 
-# copy Jekyll website from ./web into the container
+# copy Jekyll site to container
 COPY ./ .
 
 # run bundle install and then clear the directory
