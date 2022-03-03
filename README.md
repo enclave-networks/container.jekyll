@@ -4,7 +4,7 @@ Simple container that ships Ubuntu with Jekyll installed.
 
 ## To use this container
 
-1. Create a `Dockerfile` based on this image in the same directory as the `_config.yml` file of your Jekyll website. The site will copied to the `/home` directory in the container
+1. Create a `Dockerfile` based on this image in the same directory as the `_config.yml` file of your Jekyll website. The site will copied to the `/home` directory in the container.
 
 ```dockerfile
 FROM enclavenetworks/jekyll:latest
